@@ -22,7 +22,7 @@ export async function POST(req) {
           content: [
             {
               type: "text",
-              text: "Analyze this report card image and summarize performance with strengths and weaknesses. Give the user all the topics they should practice and give them all these answers in a friendly and simple form. No need to mention grade and all that, just focus on the analysis. DO NOT USE * OR # OR ### OR *** IN YOUR ANSWER!",
+              text: "Analyze this report card image and summarize performance with strengths and weaknesses. Give the user all the topics they should practice and give them all these answers in a friendly and simple form. No need to mention grade and all that, just focus on the analysis.Focus on the marks a lot and fo not get anything wrong.DO NOT USE * OR # OR ### OR *** IN YOUR ANSWER!",
             },
             {
               type: "image_url",
