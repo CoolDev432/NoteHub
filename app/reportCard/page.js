@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 
-const page = () => {
+const reportCard = () => {
     const [File, setFile] = useState(null)
     const [Answer, setAnswer] = useState()
     const handleUpload = (e) => {
@@ -49,4 +49,4 @@ const page = () => {
     )
 }
 
-export default page
+export default reportCard

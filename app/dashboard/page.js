@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero'
 
-const page = () => {
+const Dashboard = () => {
   return (
     <div>
         <Hero />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Dashboard

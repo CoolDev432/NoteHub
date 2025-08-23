@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 
-const Page = () => {
+const SharedNotes = () => {
   const [notes, setNotes] = useState([])
 
   const fetchNotes = async () => {
@@ -40,4 +40,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default SharedNotes
