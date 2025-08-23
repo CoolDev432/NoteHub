@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 
-const reportCard = () => {
+const ReportCard = () => {
     const [File, setFile] = useState(null)
     const [Answer, setAnswer] = useState()
     const handleUpload = (e) => {
@@ -49,4 +49,4 @@ const reportCard = () => {
     )
 }
 
-export default reportCard
+export default ReportCard
