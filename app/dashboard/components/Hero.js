@@ -14,7 +14,7 @@ const Hero = () => {
         <p className='text-3xl'>
           Your
         </p>
-        <h1 className='text-9xl'>
+        <h1 className='md:text-9xl text-5xl'>
           Dashboard
         </h1>
       </div>

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import { useUser } from '@clerk/nextjs'
-import { useRouter } from 'next/navigation' // App Router
+import { useRouter } from 'next/navigation' 
 
 const Page = () => {
   const { user } = useUser()
@@ -11,7 +11,6 @@ const Page = () => {
 
   useEffect(() => {
     const email = user?.emailAddresses[0]?.emailAddress
-    if (!email) return // prevent fetching with undefined
 
     const fetchNotes = async () => {
       const res = await fetch(`/api/getNoteByEmail?email=${encodeURIComponent(email)}`)

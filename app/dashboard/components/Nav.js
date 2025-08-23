@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 const Nav = () => {
   return (
-    <div className='bg-white text-black mb-5  p-4 rounded-2xl'>
+    <div className='bg-white text-black mb-5  p-4 rounded-2xl flex-wrap'>
       <Link href={'/notes'}>
         All Your Notes
       </Link>

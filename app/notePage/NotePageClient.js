@@ -70,7 +70,7 @@ const NotePageClient = () => {
   if (!noteData) return <p className="text-center mt-10">Loading note...</p>
 
   return (
-    <div className='min-h-screen bg-black'>
+    <div className='min-h-screen bg-black  border-t-2  border-b-2 border-l-2  border-r-2 border-white border-dotted'>
       <Nav pdfText={pdfText} link={noteData.noteLink} title={noteData.title} />
 
       <div className='flex justify-center items-center w-full my-4 px-2'>
