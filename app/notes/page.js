@@ -28,7 +28,7 @@ const Page = () => {
 
   return (
     <div style={{ fontFamily: 'var(--font-serif)' }} className='bg-black h-[100vh] p-5 flex justify-center items-center flex-col'>
-      <h1 className='text-6xl'>Your NoteHub.</h1>
+      <h1 className='md:text-6xl text-4xl text-white'>Your NoteHub.</h1>
       <div className='flex gap-3'>
       {Items.map((item) => (
         <div

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
     return (
-        <div className='flex justify-center items-center flex-col bg-black' style={{ fontFamily: 'var(--font-serif)' }}>
+        <div className='flex justify-center items-center flex-col bg-black text-white' style={{ fontFamily: 'var(--font-serif)' }}>
             <div>
                 <p className='text-3xl'>
                     Amazing

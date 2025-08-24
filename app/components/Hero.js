@@ -22,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="text-center flex justify-center items-center flex-col h-[100vh] py-16 border-t-2 border-l-2 border-r-2 border-dotted border-white">
+    <div className="text-center flex justify-center items-center flex-col h-[100vh] py-16 border-t-2 border-l-2 border-r-2 border-dotted border-white text-white">
       <div className='text-left '>
         <p ref={pRef} className="md:text-2xl" style={{ fontFamily: 'var(--font-serif)' }}>The Place for all your notes</p>
         <h1 ref={h1Ref} className="md:text-9xl text-6xl mb-4" style={{ fontFamily: 'var(--font-serif)' }}>
