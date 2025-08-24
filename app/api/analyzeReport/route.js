@@ -35,6 +35,8 @@ Then branch into:
   Areas to Improve
   Practice Topics
 
+NOTE: This mindmap can be as long or short as you want, just make it in-depth and understanding.
+
 Example format:
 
 MERMAID:
