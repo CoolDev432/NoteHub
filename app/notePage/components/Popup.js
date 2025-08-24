@@ -30,7 +30,7 @@ const Popup = ({ onClose, text }) => {
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
-            <div className="bg-white w-[90vw] max-w-lg p-8 rounded-2xl shadow-2xl relative animate-fadeIn overflow-y-scroll">
+            <div className="bg-white w-[90vw] p-8 rounded-2xl shadow-2xl relative animate-fadeIn overflow-y-scroll">
                 <button
                     className="absolute top-3 right-4 text-gray-400 hover:text-blue-500 cursor-pointer text-2xl font-bold transition"
                     onClick={onClose}
