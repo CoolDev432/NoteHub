@@ -8,7 +8,7 @@ const Hero = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   return (
-    <div className="text-center flex justify-center items-center flex-col h-[100vh] py-16 border-t-2 border-l-2 border-r-2 border-dotted border-white text-white" style={{ fontFamily: 'var(--font-serif)' }}>
+    <div className="bg-black text-center flex justify-center items-center flex-col h-[100vh] py-16 border-t-2 border-l-2 border-r-2 border-dotted border-white text-white" style={{ fontFamily: 'var(--font-serif)' }}>
       <Nav />
       <div className='text-left'>
         <p className='text-3xl'>
