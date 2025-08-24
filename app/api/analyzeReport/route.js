@@ -22,7 +22,7 @@ export async function POST(req) {
           content: [
             {
               type: "text",
-              text: `Analyze this report card image and summarize performance with strengths, weaknesses, and practice topics in a very friendly and simple form but answer in-depth. DO NOT GET THE ANALYSIS WRONG, WHATEVER YOU DO! 
+              text: `Analyze this report card image and summarize performance with strengths, weaknesses, and practice topics in a very friendly and simple form but answer in-depth.Tell them some topics they can study to improve. Like logical reasoning if they get bad marks in math. DO NOT GET THE ANALYSIS WRONG, WHATEVER YOU DO! 
               
 After your analysis text, also generate a valid Mermaid mindmap diagram that organizes the analysis clearly.
 
