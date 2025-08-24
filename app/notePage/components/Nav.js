@@ -8,6 +8,7 @@ const Nav = ({ pdfText, link, title }) => {
 
   const shareNotes = async () => {
     await fetch(`/api/shareNotes?link=${link}&title=${title}`);
+    alert('Note Shared')
   }
 
   return (

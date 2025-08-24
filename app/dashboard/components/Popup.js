@@ -35,6 +35,7 @@ const Popup = ({ onClose, onUpload }) => {
         setTitle('');
         setFile(null);
         console.log(file)
+        alert('Note Uploaded')
         onClose();
 
     };
