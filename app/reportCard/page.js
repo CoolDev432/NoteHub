@@ -14,6 +14,7 @@ const ReportCard = () => {
   }
 
   const handleAnalyzer = async () => {
+    console.log('Hi')
     if (!File) return
     const formData = new FormData()
     formData.append("file", File)
