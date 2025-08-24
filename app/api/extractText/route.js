@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
 
 export async function GET(req) {
+  const { searchParams } = new URL(req.url);
+  const url = searchParams.get("url");
+  
   try {
-    const { searchParams } = new URL(req.url);
-    const url = searchParams.get("url");
-
     const payload = {
       url,  
       lang: "eng",
@@ -34,7 +34,7 @@ export async function GET(req) {
 
     return NextResponse.json({ text: result.body });
   } catch (err) {
-    console.error("PDF Extract Error:", err);
+    console.error("extraction error pls help:", err);
     return NextResponse.json({ error: err.message }, { status: 500 });
   }
 }

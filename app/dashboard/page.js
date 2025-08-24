@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className='bg-black'>
         <Hero />
     </div>
   )

@@ -7,7 +7,7 @@ import Features from './components/Features'
 
 const page = () => {
   return (
-    <div className='h-[100vh]'>
+    <div className='h-[150vh] bg-black'>
         <Hero />
         <Features />
         <Footer />
